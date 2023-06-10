@@ -12,8 +12,6 @@
 		BE0C88212A33E7ED00618FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0C88202A33E7ED00618FAF /* Assets.xcassets */; };
 		BE0C88242A33E7ED00618FAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0C88232A33E7ED00618FAF /* Preview Assets.xcassets */; };
 		BE0C882B2A34077300618FAF /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0C882A2A34077300618FAF /* WeatherButton.swift */; };
-		BE0C882F2A341D3600618FAF /* Screenshot 2023-06-09 at 9.47.36 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0C882D2A341D3600618FAF /* Screenshot 2023-06-09 at 9.47.36 PM.png */; };
-		BE0C88302A341D3600618FAF /* Screenshot 2023-06-09 at 9.47.26 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0C882E2A341D3600618FAF /* Screenshot 2023-06-09 at 9.47.26 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,8 +21,6 @@
 		BE0C88202A33E7ED00618FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE0C88232A33E7ED00618FAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE0C882A2A34077300618FAF /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
-		BE0C882D2A341D3600618FAF /* Screenshot 2023-06-09 at 9.47.36 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2023-06-09 at 9.47.36 PM.png"; path = "../../../../../../../Desktop/Screenshot 2023-06-09 at 9.47.36 PM.png"; sourceTree = "<group>"; };
-		BE0C882E2A341D3600618FAF /* Screenshot 2023-06-09 at 9.47.26 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2023-06-09 at 9.47.26 PM.png"; path = "../../../../../../../Desktop/Screenshot 2023-06-09 at 9.47.26 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +53,6 @@
 		BE0C881B2A33E7ED00618FAF /* SeanAllen_Weather */ = {
 			isa = PBXGroup;
 			children = (
-				BE0C882C2A341D2400618FAF /* Screenshots */,
 				BE0C881C2A33E7ED00618FAF /* SeanAllen_WeatherApp.swift */,
 				BE0C881E2A33E7ED00618FAF /* ContentView.swift */,
 				BE0C88202A33E7ED00618FAF /* Assets.xcassets */,
@@ -73,15 +68,6 @@
 				BE0C88232A33E7ED00618FAF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		BE0C882C2A341D2400618FAF /* Screenshots */ = {
-			isa = PBXGroup;
-			children = (
-				BE0C882E2A341D3600618FAF /* Screenshot 2023-06-09 at 9.47.26 PM.png */,
-				BE0C882D2A341D3600618FAF /* Screenshot 2023-06-09 at 9.47.36 PM.png */,
-			);
-			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,8 +130,6 @@
 			files = (
 				BE0C88242A33E7ED00618FAF /* Preview Assets.xcassets in Resources */,
 				BE0C88212A33E7ED00618FAF /* Assets.xcassets in Resources */,
-				BE0C88302A341D3600618FAF /* Screenshot 2023-06-09 at 9.47.26 PM.png in Resources */,
-				BE0C882F2A341D3600618FAF /* Screenshot 2023-06-09 at 9.47.36 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
